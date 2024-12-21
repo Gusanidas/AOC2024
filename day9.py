@@ -41,7 +41,6 @@ def part_one():
         drive = expand_drive(drive)
         drive = rearrange_drive(drive)
         checksum = get_checksum(drive)
-        # checksum = get_checksum(rearrange_drive(expand_drive(drive)))
     print(f"part one = {checksum}")
 
 
@@ -88,8 +87,7 @@ def part_two():
         drive = expand_drive_2(drive)
         drive = rearrange_drive_2(drive)
         checksum = get_checksum(drive)
-        # checksum = get_checksum(rearrange_drive(expand_drive(drive)))
-    print(f"part twoer= {checksum}")
+    print(f"part tw0 = {checksum}")
 
 
 if __name__ == "__main__":
